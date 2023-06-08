@@ -1,0 +1,11 @@
+<div class="slider">
+  <div class="slides" [style.transform]="'translateX(' + translateX + 'px)'">
+    <div class="slide" *ngFor="let image of images">
+      <img [src]="image" alt="Slide Image">
+    </div>
+  </div>
+  <div class="slider-controls">
+    <button class="prev-button" (click)="scrollSlider('left')">&lt;</button>
+    <button class="next-button" (click)="scrollSlider('right')">&gt;</button>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div class="button-container">
+    <button *ngFor="let button of buttons" class="my-button">
+      <img [src]="button.icon" class="button-icon" alt="Icona">
+      <p class="button-text">{{ button.name }}</p>
+    </button>
+  </div>
+</body>
+</html>

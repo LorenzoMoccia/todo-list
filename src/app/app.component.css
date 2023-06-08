@@ -1,0 +1,12 @@
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slider-container{
+  border: 1px dashed red;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
